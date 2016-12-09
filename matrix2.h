@@ -50,25 +50,12 @@ matrik3[x][y]=matrik3[x][y]+temp;
 } 
 } 
 }
-{
-	float angka,total = 0, rata;
-	int jumlah;
-	
-	cout<<"1. Mencari Rata-rata. (jumlah angka ditentukan)\n";
-	cout<<"Masukan Jumlah Angka : ";
-	cin>>jumlah;
-	cout<<endl;
-	
-	for (int i=1; i<=jumlah; i++){
-		cout<<"Masukan Angka : "; cin>>angka;
-		total = total + angka;
-	}
-	
-	cout<<endl;
-	cout<<"total : " <<total<<endl;
-	rata = total/jumlah;
-	cout<<"Rata-rata : "<<rata;
-}
+//output matrik hasil perkalian 
+cout<<endl; 
+cout<<"Matrik hasil perkalian :"<<endl; 
+for (int x = 0;x<2;x++){ 
+for (int y =0;y<2;y++){ 
+cout <<matrik3[x][y]<<"   "; 
 } 
 cout<<endl; 
 } 
